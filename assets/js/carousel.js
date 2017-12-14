@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $("#jadwal").carousel();
+    $(".left").click(function(){
+        $("#jadwal").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#jadwal").carousel("next");
+    });
+});
+$(document).ready(function(){
+    $("#epSlide").carousel();
+});
+$(document).ready(function(){
+    $("#topPemain").carousel();
+    $(".left").click(function(){
+        $("#topPemain").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#topPemain").carousel("next");
+    });
+});
+

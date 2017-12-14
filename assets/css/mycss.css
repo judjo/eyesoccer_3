@@ -1,0 +1,578 @@
+video {  
+width:100%; 
+max-width:990px; 
+height:auto; 
+}
+.drop-shadow {
+        -webkit-box-shadow: 0 0 5px 0px rgba(0, 0, 0, .5);
+        box-shadow: 0 0 5px 0px rgba(0, 0, 0, .5);
+}
+.carousel .carousel-control { visibility: visible; background: rgba(0,0,0,0.0); color: #F27A36; opacity: 1;}
+.carousel:hover .carousel-control { visibility: visible; }
+#sset1{
+position: relative;
+float: left;
+padding: 2px;
+}
+#center1{
+position: absolute;
+left: 2;
+top: 1%;
+width: 200px;
+font-family: Lucida Sans;
+text-align: center;
+background: rgba(0,0,0,0.0);
+padding: 1px;
+color: #ffffff;
+}   
+#menu1{
+background: #F27A36; 
+color: #ffffff;
+text-align: left;
+font-family: Lucida Sans;
+font-size: 15px;
+font-weight: bold;
+padding-top: 10px;
+padding-bottom: 10px;  
+padding-left: 10px; 
+padding-right: 0px; 
+}
+#menu2{
+border-top: solid #ffffff 1px; 
+border-bottom: solid #EBEDEF 1px; 
+border-left: solid #ffffff 1px; 
+border-right: solid #ffffff 1px; 
+color: #3d3d3d;
+text-align: left;
+font-family: Lucida Sans;
+font-size: 15px;
+font-weight: bold;
+padding-top: 10px;
+padding-bottom: 10px; 
+padding-left: 10px; 
+padding-right: 0px; 
+}
+#menu2:hover{
+background: #3d3d3d;
+color: #ffffff;    
+border-top: solid #3d3d3d 1px; 
+border-bottom: solid #3d3d3d 1px; 
+border-left: solid #3d3d3d 1px; 
+border-right: solid #3d3d3d 1px; 
+}
+#line1{
+border-top: solid #a9a9a9 1px;
+border-bottom: solid #a9a9a9 1px;
+border-left: solid #ffffff 1px;
+border-right: solid #ffffff 1px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 0px;
+padding-right: 0px;  
+}
+#line2{
+border-top: solid #ffffff 1px;
+border-bottom: solid #a9a9a9 1px;
+border-left: solid #ffffff 1px;
+border-right: solid #ffffff 1px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 0px;
+padding-right: 0px;   
+}
+#back1{
+background: #F2F4F4;
+}
+#back2{
+background: #8DD640;
+padding: 20px;
+font-family: Lucida Sans;
+font-size: 26px;
+}
+#back2:hover{
+background: #a9a9a9;
+cursor: pointer;    
+}
+#back3{
+background: #43CCC0;
+padding: 20px;
+font-family: Lucida Sans;
+font-size: 26px;
+}
+#back3:hover{
+background: #a9a9a9;
+cursor: pointer;    
+}
+#back4{
+background: #F4D01C;
+padding: 20px;
+font-family: Lucida Sans;
+font-size: 26px;
+}
+#back4:hover{
+background: #a9a9a9;
+cursor: pointer;    
+}
+#back5{
+background: #F4921C;
+padding: 20px;
+font-family: Lucida Sans;
+font-size: 26px;
+}
+#back5:hover{
+background: #a9a9a9;
+cursor: pointer;    
+}
+#back51{
+background: #611BBD;
+padding: 20px;
+font-family: Lucida Sans;
+font-size: 26px;
+}
+#back51:hover{
+background: #a9a9a9;
+cursor: pointer;    
+}
+#back52{
+background: #FC3FF6;
+padding: 20px;
+font-family: Lucida Sans;
+font-size: 26px;
+}
+#back52:hover{
+background: #a9a9a9;
+cursor: pointer;    
+}
+#back6{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+padding: 10px;   
+}
+#back7{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+padding: 17px;   
+}
+#back8{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+#back9{
+background: #E5E8E8;  
+border-bottom: solid #006699 1px;
+}
+#fb_clr{
+background: #2874A6;  
+color: #ffffff;
+padding: 9px;  
+text-decoration: none; 
+width: 100px;   
+text-align: center;
+cursor: pointer;
+}
+#fb_clr:hover{background: #3d3d3d;}
+#tw_clr{
+background: #5DADE2;  
+color: #ffffff;
+padding: 9px;  
+text-decoration: none; 
+width: 100px;   
+text-align: center;  
+cursor: pointer;
+}
+#tw_clr:hover{background: #3d3d3d;}
+#ig_clr{
+background: #734AA9;  
+color: #ffffff;
+padding: 9px;  
+text-decoration: none;  
+width: 100px;   
+text-align: center;
+cursor: pointer;
+}
+#ig_clr:hover{background: #3d3d3d;}
+#lbl1{
+background: #33E0FF;
+color: #ffffff;    
+width: 150px;
+padding: 3px;
+text-align: center;
+}
+#t1{
+font-family: Lucida Sans; 
+}
+#t2{
+font-family: Lucida Sans;
+font-size: 20px;
+font-weight: bold;
+padding-left: 5px;  
+padding-bottom: 1px;
+color: #F27A36;
+}
+#t3{
+font-family: Lucida Sans;
+font-size: 20px;
+font-weight: bold;
+color: #3d3d3d;    
+}
+#t4{
+font-family: Lucida Sans;
+font-size: 15px;
+font-weight: bold;
+color: #3d3d3d;    
+}
+#t5{
+font-family: Lucida Sans;
+font-size: 15px;
+font-weight: bold;
+color: #3d3d3d; 
+padding-top: 1px;   
+}
+#p1{
+font-family: Lucida Sans;
+font-size: 11px;
+color: #3d3d3d;  
+padding-bottom: 10px;   
+}
+#p2{
+font-family: Lucida Sans;
+font-size: 15px;
+color: #ffffff;  
+padding-bottom: 10px;   
+}
+#a1{
+color: #ffffff;
+}
+#a1:hover{
+text-decoration: none;
+cursor: pointer;
+color: #3d3d3d;
+}
+#a2{
+float: right;
+font-family: Lucida Sans;
+font-size: 15px;
+padding-right: 5px;
+padding-top: 10px;  
+}
+#a2:hover{
+color: #3d3d3d;
+cursor: pointer;
+text-decoration: none;  
+}
+#a3{
+color:  #3d3d3d;
+font-family: Lucida Sans
+}
+#a3:hover{
+color: #a9a9a9;
+text-decoration: none;  
+}
+#a4{
+font-family: Lucida Sans;
+font-size: 12px;
+font-weight: bold;
+color: #34495E;    
+}
+#a4:hover{
+color: #a9a9a9;
+text-decoration: none;    
+}
+#a5{
+color:  #3d3d3d;
+font-family: Lucida Sans
+}
+#a5:hover{
+color: #2ECC71;
+text-decoration: none;  
+}
+#a6{
+color: #3d3d3d;
+font-family: Franklin Ghotic; 
+font-size: 15px;
+}
+#a6:hover{
+color: #a9a9a9; 
+text-decoration: none;   
+}
+#a7{
+color: #3d3d3d;
+font-family: Franklin Ghotic; 
+font-weight: bold;
+font-size: 15px;
+}
+#a7:hover{
+color: #a9a9a9; 
+text-decoration: none;   
+}
+#a8{
+color: #4C9AEC; 
+font-family: Franklin Ghotic; 
+font-size: 15px;
+}
+#a8:hover{
+color: #a9a9a9; 
+text-decoration: none;   
+}
+#a9{
+text-decoration: none;  
+}
+#set1{  
+padding-top: 5px; 
+}
+#set2{
+background-color: transparent;
+border-radius: 0px;
+border: none;
+box-shadow: none; 
+}
+#set3 {
+position: relative;
+}
+#set4{
+padding: 10px;  
+}
+#set5{
+float: right;    
+}
+#set6{
+font-family: Lucida Sans;    
+color: #a9a9a9;    
+}
+#set7{
+max-width: 380px;    
+}
+#set8{
+border-radius: 0px;    
+}
+#set9{
+width: 580px;     
+}
+#set10{
+background: #53B92A;
+color: #ffffff;  
+padding: 5px;
+}
+#set10:hover{
+background: #3d3d3d;
+color: #ffffff;   
+}
+#set11{
+padding:4px;
+float: left;
+}
+#ipt1{
+border-radius: 0px;
+height: 45px;    
+}
+#pg1{
+font-family: Lucida Sans;
+background: #3d3d3d;
+color: #ffffff;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-right: 10px;
+padding-left: 10px; 
+border-radius: 1px;
+}
+#pg1:hover{
+text-decoration: none;  
+background: #F27A36;
+color: #3d3d3d; 
+text-decoration: none;  
+}
+#pg2{
+font-family: Lucida Sans;
+background: #F27A36;
+color: #ffffff;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-right: 10px;
+padding-left: 10px; 
+border-radius: 1px;
+}
+#pg2:hover{
+text-decoration: none;  
+background: #F7A719;
+color: #ffffff; 
+text-decoration: none;  
+}
+#btn1{
+background: #EB8408;
+font-weight: bold;
+font-size: 19px;   
+border-radius: 0px;
+color: #ffffff;
+}
+#btn1:hover{
+background: #3d3d3d;    
+}
+#btn2{
+background: #BD2500;
+font-family: Lucida Sans;
+font-weight: bold;
+font-size: 20px;   
+border-radius: 0px;
+color: #ffffff;
+padding: 10px;
+}
+#btn2:hover{
+background: #3d3d3d;    
+}
+#btn3{
+border: solid #F1C40F 1px;
+color: #3d3d3d;
+font-family: Lucida Sans;
+font-size: 12px;   
+letter-spacing: 1px;
+border-radius: 0px; 
+}
+#btn3:hover{
+background: #E74C3C;
+color: #ffffff;
+}
+#btn4{
+background: #F1C40F;
+color: #ffffff;     
+}
+
+#btn5{
+border: solid #43CCC0 1px;
+color: #3d3d3d;
+font-family: Lucida Sans;
+font-size: 12px;   
+letter-spacing: 1px;
+border-radius: 0px;     
+}
+#btn5:hover{
+background: #43CCC0;
+color: #ffffff;    
+}
+#img1{
+box-shadow: 5px 5px 5px #212F3D;  
+}
+#img2{
+display: block;
+margin: auto; 
+}
+#img3{
+display: block;
+margin: auto;
+padding: 5px; 
+}
+#img4{
+width: 80px;
+height: 60px;    
+}
+#img5{
+width: 60px;
+height: 60px;    
+}
+#img6{
+display: block;
+margin: auto;   
+width: 180px;
+height: 200px;    
+}
+#img7{
+width: 130px;
+height: 75px;   
+}
+#img8{
+width: 500px;
+height: 300px;    
+}
+#img9{
+width: 200px;
+height: 200px;    
+}
+#img10{
+width: 85px;
+height: 89px;  
+}
+#topright {
+position: absolute;
+top: 0px;
+right: 10px;
+font-size: 30px;
+color: #ffffff;
+opacity: 0.5;
+}
+#topright:hover{
+opacity: 1;
+cursor: pointer;  
+}
+/* box eyemarket */
+.productbox {
+    background-color:#ffffff;
+  padding:10px;
+  margin-bottom:10px;
+  -webkit-box-shadow: 0 8px 6px -6px  #999;
+     -moz-box-shadow: 0 8px 6px -6px  #999;
+          box-shadow: 0 -5px 6px -6px #999;
+}
+.producttitle {
+    font-weight:bold;
+  padding:5px 0 5px 0;
+}
+.productprice {
+  border-top:1px solid #dadada;
+  padding-top:5px;
+}
+.pricetext {
+  font-weight:bold;
+  font-size:1.4em;
+}
+/* box eyemarket */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 15%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding-left: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 50px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
